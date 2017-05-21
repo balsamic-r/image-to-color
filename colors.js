@@ -1,5 +1,5 @@
 const getPixel = require("get-pixels");
-//prova
+
 const MAX_DEPTH = 4;
 const IMAGE = "paris.jpg";
 
@@ -137,5 +137,5 @@ loadImage(IMAGE)
             </body>
         </html>
     `;
-    fs.writeFile("prova.html",html);
+    fs.writeFile(`${IMAGE}.html`,html);
 })
